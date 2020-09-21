@@ -15,7 +15,7 @@
          a required configuration for both web applications as their user authentication
          logic relies on this. -->
     <AuthManager>
-        <!-- Server URL of the Authentication service -->
+        <!-- Server URL of the Authentication service. -->
         <ServerURL>https://localhost:${mgt.transport.https.port}${carbon.context}services/</ServerURL>
         <!-- Admin username for the Authentication manager. -->
         <Username>${admin.username}</Username>
